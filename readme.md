@@ -2,6 +2,10 @@
 
 Angular: "HTML enhanced for web apps." Have you ever seen [limitless](https://www.youtube.com/watch?v=jOLqNOfzus4)? Angular makes your apps behave like it's taking NZT-48 (without the bad side effects, of course).
 
+# Objectives
+* Install Angular
+* Use directives to enhance HTML
+
 ##Step 0 - initial setup
 
 Fork & clone this repo
