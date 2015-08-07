@@ -1,6 +1,6 @@
 #Angular Workshop Pt.1 - The Basics
 
-
+Angular: "HTML enhanced for web apps." Have you ever seen [limitless](https://www.youtube.com/watch?v=jOLqNOfzus4)? Angular makes your apps behave like it's taking NZT-48 (without the bad side effects, of course).
 
 ##Step 0 - initial setup
 
@@ -10,9 +10,9 @@ Open up `index.html`
 
 Inspect `app/index.html' and include angular library. Best place to get it from is [Google directly](https://developers.google.com/speed/libraries):
 
-The latest release is 1.3.14:
+The latest release is 1.4.3:
 
-`<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>`
+`<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>`
 
 
 ##Step 1 - data-binding & simple directives
@@ -25,11 +25,13 @@ Angular directives start with the prefix **ng-**. For example:
 
 The **ng-app** directive denotes the beginning of an application, and everything inside its tags will have access to binding. In other words,
 
-[`ng-app`](http://docs.angularjs.org/api/ng/directive/ngApp) turns ordinary HTML into an Angular application
+[`ng-app`](http://docs.angularjs.org/api/ng/directive/ngApp) turns ordinary HTML into an Angular application.
 
 [Data binding](https://docs.angularjs.org/guide/databinding): `ng-model` binds an HTML element to a value / model. The binding is bi-directional. [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel)
 
-Double curly brackets denote Angular expressions: ```{{ an angular expression }}``` - this is not HandleBars.  Angular does not require a 3rd party templating system required like Ember does.
+Double curly brackets denote Angular expressions: ```{{ an angular expression }}``` - this is not HandleBars.  Angular does not require a 3rd party templating system required like Ember and some other libraries do.
+
+Watch this [short tutorial](https://egghead.io/lessons/angularjs-binding) on the basics of data binding with angular expressions.
 
 More on [directives](http://docs.angularjs.org/guide/directive). Directives [cheat sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
 
@@ -38,9 +40,6 @@ More on [directives](http://docs.angularjs.org/guide/directive). Directives [che
 - a tag, href attribute: `ng-href`
 - img tag, src attribute: `ng-src`
 - class attribute: `ng-class`
-
-Take a moment to think about how you accomplish some of these things using Ember.
-
 
 To catch up:
 
@@ -90,8 +89,6 @@ Loops are directives!
 
 `| filter:query `
 
-Compare/Contrast with Ember!
-
 **All this without a single line of JavaScript**
 
 [ngRepeat](http://docs.angularjs.org/api/ng/directive/ngRepeat)
@@ -102,7 +99,7 @@ To catch up:
 
 ##Step 4 - controllers
 
-Time to start writing some Javscript...
+Time to start writing some Javascript! :D
 
 [**controller**](http://docs.angularjs.org/guide/controller)
 
